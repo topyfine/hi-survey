@@ -1,0 +1,12 @@
+server:
+  port: 8088
+
+spring:
+  application:
+    name: application
+  profiles:
+    active: dev,db
+#logging:
+#  level:
+#    web: debug
+
